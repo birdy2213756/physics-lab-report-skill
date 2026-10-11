@@ -20,7 +20,7 @@ RC部分测量电压从初始值降至约初始值的36.8%所需时间。移相�
 
 ### 1. RC时间常数与电容
 
-已确认$E=8.90\,\mathrm V$、$U=3.30\,\mathrm V$、原始光标差$\Delta t=-760.0\,\mathrm{ms}$。由于光标顺序反向，计算经过时间取其大小。$U/E\approx0.3708$，接近$e^{-1}\approx0.3679$，按阈值法近似得到
+已确认 $`E=8.90\,\mathrm V`$ 、 $`U=3.30\,\mathrm V`$ 、原始光标差 $`\Delta t=-760.0\,\mathrm{ms}`$ 。由于光标顺序反向，计算经过时间取其大小。 $`U/E\approx0.3708`$ ，接近 $`e^{-1}\approx0.3679`$ ，按阈值法近似得到
 
 $$\tau\approx|\Delta t|=760.0\,\mathrm{ms}=0.760\,\mathrm s.$$
 
@@ -34,7 +34,7 @@ $$D_C=\frac{|38.0-47|}{47}\times100\%\approx19.1\%.$$
 
 ### 2. 相位差大小
 
-采用历史文字记录中的电路关系，$f=49.8533\,\mathrm{Hz}$、$R=10\,\mathrm{k}\Omega$、$C=0.1\,\mu\mathrm F$：
+采用历史文字记录中的电路关系， $`f=49.8533\,\mathrm{Hz}`$ 、 $`R=10\,\mathrm{k}\Omega`$ 、 $`C=0.1\,\mu\mathrm F`$ ：
 
 $$\varphi_0=\arctan(2\pi fRC)=\arctan(2\pi\times49.8533\times10^4\times10^{-7})\approx17.39^\circ.$$
 
@@ -42,7 +42,7 @@ $$\varphi_0=\arctan(2\pi fRC)=\arctan(2\pi\times49.8533\times10^4\times10^{-7})\
 
 $$T=\frac{39.90}{2}\,\mathrm{ms}=19.95\,\mathrm{ms},\qquad |\varphi_1|=\frac{1.30}{19.95}\times360^\circ\approx23.46^\circ.$$
 
-李萨如图形中，A与B都取相应的全宽，已确认$A=19.50\,\mathrm V$、$B=6.00\,\mathrm V$。在该记录采用的锐角分支下，
+李萨如图形中，A与B都取相应的全宽，已确认 $`A=19.50\,\mathrm V`$ 、 $`B=6.00\,\mathrm V`$ 。在该记录采用的锐角分支下，
 
 $$|\varphi_2|=\arcsin\frac BA=\arcsin\frac{6.00}{19.50}\approx17.92^\circ.$$
 
@@ -52,7 +52,7 @@ $$|\varphi_2|=\arcsin\frac BA=\arcsin\frac{6.00}{19.50}\approx17.92^\circ.$$
 | 双踪显示法 | 23.46° | 34.9% |
 | 李萨如图形法 | 17.92° | 3.03% |
 
-相对差异由未舍入的中间结果计算：$D_i=|\varphi_i-\varphi_0|/\varphi_0\times100\%$。表中的角度保留到0.01°用于比较，不代表仪器具有该测量精度。已有资料不足以判定相位超前或滞后。
+相对差异由未舍入的中间结果计算： $`D_i=|\varphi_i-\varphi_0|/\varphi_0\times100\%`$ 。表中的角度保留到0.01°用于比较，不代表仪器具有该测量精度。已有资料不足以判定相位超前或滞后。
 
 ![相位差派生结果比较](phase-comparison.png)
 
