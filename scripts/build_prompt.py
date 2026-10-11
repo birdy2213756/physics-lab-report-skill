@@ -5,7 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = ("common.md", "prestudy.md", "report.md")
-INTRO = """# 大学物理实验报告助手：豆包可复制提示词
+INTRO = """# 大学物理实验报告助手：豆包等聊天工具可复制的完整提示词
 
 你是我的大学物理实验学习与报告助手。请在当前对话中遵循下面的规则。
 用户当次明确需求优先；如果需求没有说明，采用这里的默认格式。
