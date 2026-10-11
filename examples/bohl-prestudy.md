@@ -10,7 +10,7 @@
 
 $$\ddot\theta+2\beta\dot\theta+\omega_0^2\theta=m\cos\omega t,$$
 
-其中，$\beta$为阻尼系数，$\omega_0$为无阻尼固有角频率，$m$为驱动力矩幅值与转动惯量之比。暂态衰减后，稳定振动频率与驱动频率相同，振幅为
+其中， $`\beta`$ 为阻尼系数， $`\omega_0`$ 为无阻尼固有角频率， $`m`$ 为驱动力矩幅值与转动惯量之比。暂态衰减后，稳定振动频率与驱动频率相同，振幅为
 
 $$\theta_a=\frac{m}{\sqrt{(\omega_0^2-\omega^2)^2+4\beta^2\omega^2}}.$$
 
