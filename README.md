@@ -4,6 +4,21 @@
 
 本项目提供可安装的 AI 技能和可复制的中文提示词，不需要项目自己的模型 API Key。输入自己的教材和实验数据，不会拿示例数据替你完成实验。
 
+## 教材下载
+
+技能包已附《大学物理实验》（第三版），没有教材的同学可以直接下载，并结合自己的课程要求使用。
+
+- [下载教材 PDF](https://github.com/birdy2213756/physics-lab-report-skill/releases/download/v1.1.0/university-physics-lab-3rd-edition.pdf)
+- [下载含教材的完整技能包](https://github.com/birdy2213756/physics-lab-report-skill/releases/download/v1.1.0/physics-lab-report-skill-v1.1.0.zip)
+- [仓库中的教材文件](textbooks/university-physics-lab-3rd-edition.pdf)
+- [教材信息与授权说明](textbooks/README.md)
+
+PDF为354页扫描版，约92.8 MB。Codex、Claude Code安装完整仓库后，可读取技能目录下的教材；豆包用户先下载，再按账户支持的附件方式提供相关页面。复制提示词不会自动把教材传入豆包，附件过大时可仅提供当前实验的页面。
+
+已核对的定位：2.10波尔共振在PDF第119—125页，2.16数字示波器及其应用Ⅱ在PDF第182—186页。详细读取规则见[教材使用说明](references/textbook.md)。教材规定的标称参数不能当作个人实测数据。
+
+教材由维护者确认具有公开分发授权后加入；教材不适用项目代码的MIT许可证，具体范围见授权说明。
+
 ## 豆包：复制就能开始
 
 1. 打开 [豆包完整提示词](prompts/doubao.md)，复制正文到一个新对话。GitHub 的 Raw 按钮可查看纯文本。
@@ -113,4 +128,4 @@ python -m unittest discover -s tests -v
 
 欢迎提交真实问题、规则改进或去除个人信息的复现案例。新增实验案例需说明数据来源、确认状态、公式条件和验证方法，不能上传未经授权的教材全文或个人实验资料。
 
-MIT，见 [LICENSE](LICENSE)。
+项目自编代码、规则与文档采用MIT，见[LICENSE](LICENSE)；内附教材的版权与使用范围见[教材授权说明](textbooks/README.md)。

@@ -160,6 +160,16 @@ class PlotTests(unittest.TestCase):
 
 
 class PackagingTests(unittest.TestCase):
+    def test_bundled_textbook_integrity(self) -> None:
+        import hashlib
+        book = ROOT / "textbooks/university-physics-lab-3rd-edition.pdf"
+        self.assertEqual(book.stat().st_size, 92802868)
+        digest = hashlib.sha256()
+        with book.open("rb") as stream:
+            for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+                digest.update(chunk)
+        self.assertEqual(digest.hexdigest(), "7c502a15b7aac5ba9171fd802d8a11782f5e482a02ee5e59a564b44f46908828")
+
     def test_standalone_prompt_matches_rule_sources(self) -> None:
         self.assertEqual((ROOT / "prompts/doubao.md").read_text(encoding="utf-8"), render_prompt())
 
