@@ -1,0 +1,19 @@
+{
+  "confirmed": true,
+  "confirmation_basis": "历史对话中用户明确确认的文字数据；本示例未重新读取原始截图",
+  "quantities": {
+    "rc_resistance": {"value": 20, "unit": "kohm", "source": "教材参数的文字转录"},
+    "rc_nominal_capacitance": {"value": 47, "unit": "uF", "source": "教材标称参数的文字转录"},
+    "initial_voltage": {"value": 8.90, "unit": "V", "source": "RC截图读数的已确认文字转录"},
+    "threshold_voltage": {"value": 3.30, "unit": "V", "source": "RC截图读数的已确认文字转录"},
+    "rc_cursor_delta": {"value": -760.0, "unit": "ms", "source": "RC截图光标差的已确认文字转录"},
+    "phase_resistance": {"value": 10, "unit": "kohm", "source": "移相电路教材参数的文字转录"},
+    "phase_capacitance": {"value": 0.1, "unit": "uF", "source": "移相电路教材参数的文字转录"},
+    "frequency": {"value": 49.8533, "unit": "Hz", "source": "示波器频率的已确认文字转录"},
+    "phase_cursor_delta": {"value": -1.30, "unit": "ms", "source": "双踪法时间差的已确认文字转录"},
+    "period_cursor_span": {"value": 39.90, "unit": "ms", "source": "周期截图跨度的已确认文字转录"},
+    "period_count": {"value": 2, "unit": "cycles", "source": "用户明确确认跨度跨越两个周期"},
+    "lissajous_full_width": {"value": 19.50, "unit": "V", "source": "李萨如图全宽A的已确认文字转录"},
+    "lissajous_intercept_width": {"value": 6.00, "unit": "V", "source": "李萨如图截距全宽B的已确认文字转录"}
+  }
+}

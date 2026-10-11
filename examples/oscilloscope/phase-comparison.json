@@ -1,0 +1,25 @@
+{
+  "source": "原始截图未重新核验；计算仅对应已确认的文字数据；本图为派生结果比较，非示波器实测波形",
+  "confirmation_basis": "源数据已明确确认且calculate_oscilloscope.py成功复算",
+  "x": [
+    1,
+    2,
+    3
+  ],
+  "y": [
+    17.39251394013775,
+    23.45864661654136,
+    17.92021313939229
+  ],
+  "fit": "none",
+  "connect": false,
+  "fit_indices": [],
+  "excluded_indices": [],
+  "ylim": [
+    0,
+    30
+  ],
+  "title": "Phase comparison (derived values)",
+  "xlabel": "Method",
+  "ylabel": "Phase difference / deg"
+}

@@ -1,0 +1,17 @@
+{
+  "verification": "executed_python_from_confirmed_text",
+  "source_limit": "原始截图未重新核验；计算仅对应已确认的文字数据",
+  "tau_approx_s": 0.76,
+  "capacitance_approx_uF": 38.0,
+  "capacitance_nominal_deviation_percent": 19.148936170212757,
+  "threshold_ratio": 0.37078651685393255,
+  "threshold_ratio_target": 0.36787944117144233,
+  "period_s": 0.01995,
+  "phase_theory_deg": 17.39251394013775,
+  "phase_dual_trace_deg": 23.45864661654136,
+  "phase_lissajous_deg": 17.92021313939229,
+  "dual_trace_relative_difference_percent": 34.87783708141484,
+  "lissajous_relative_difference_percent": 3.0340593721574383,
+  "phase_sign": "只比较相位差大小，资料不足以判定超前或滞后",
+  "approximation": "依教材阈值法将接近E/e的读数对应间隔近似取为时间常数"
+}
